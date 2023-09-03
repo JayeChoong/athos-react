@@ -24,7 +24,7 @@ function App() {
       </Routes>
       <div className="float-icon">
     <a href="https://api.whatsapp.com/send?phone=601152224333" target="_blank"><img
-        src={whatsAppIcon} alt="whatsapp"></img></a>
+        src={whatsAppIcon} alt="whatsapp"></img>abcde</a>
 
 </div>
       <Footer />
