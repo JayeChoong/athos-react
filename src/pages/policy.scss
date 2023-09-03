@@ -1,0 +1,26 @@
+.section {
+    width: 80%;
+    margin: auto;
+
+    @media only screen and (max-width: 1250px) {
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-family: 'Gotham-bold';
+    font-size: 30px;
+    margin-bottom: 3%
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5%;
+    min-height: 70vh;
+    position: relative;
+    z-index: 99;
+
+    @media only screen and (max-width: 1250px) {
+        margin-top: 5vh;
+    }
+}

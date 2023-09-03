@@ -1,0 +1,82 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+@font-face {
+    font-family: 'Dumbnerd';
+    src: url('./assets/fonts/402a6ee50d28e7cea0f74f93601c4802.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/Gotham-Light.otf') format('truetype'),
+        url('./assets/fonts/GothamLight.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: "Gotham-bold";
+    src: url('./assets/fonts/Gotham-Bold.otf') format('truetype'),
+        url('./assets/fonts/GothamBold.ttf') format('truetype'),
+}
+
+body {
+    line-height: 1.5 !important;
+    letter-spacing: 1px !important;
+    font-family: 'Gotham' !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.primary-font {
+    font-family: 'Dumbnerd' !important;
+}
+
+.neon-pink {
+    color: #F80789;
+}
+
+.neon-blue {
+    color: #0534F3;
+}
+
+.paper-white {
+    color: #D3D5D8
+}
+
+.linear {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.background-img {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.float-icon {
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    z-index:99;
+
+    img {
+      width:70px
+    }
+}
+
+
+
+
+
+
+
+
+
